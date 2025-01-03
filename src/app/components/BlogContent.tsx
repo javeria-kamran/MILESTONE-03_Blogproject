@@ -34,7 +34,7 @@ export default function BlogContent({
   author,
   date,
   readTime,
-  category,
+  
   stats,
 }: BlogContentProps) {
   const [comments, setComments] = useState<string[]>([]);
