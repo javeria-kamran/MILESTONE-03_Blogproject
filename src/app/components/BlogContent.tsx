@@ -168,8 +168,7 @@ export default function BlogContent({
             <Link2 className="h-4 w-4 mr-2" />
             Copy
           </Button>
-        </div>
-        <Badge variant="secondary">{category}</Badge>
+      </div>
       </div>
 
       <div className="flex items-center justify-between py-6 p-2  border-gray-200">
