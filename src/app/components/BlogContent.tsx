@@ -9,7 +9,7 @@ import { Badge } from '../../../components/ui/badge'
 import React, { useState } from "react"
 
 interface BlogContentProps {
-  title: string
+  title: string;
   subtitle?: string
   content: string
   image: string
@@ -19,7 +19,7 @@ interface BlogContentProps {
   }
   date: string
   readTime: string
-  category?: string
+  category?: string;
   stats: {
     views: number
     likes: number

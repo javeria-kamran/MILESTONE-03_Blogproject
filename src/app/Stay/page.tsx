@@ -53,7 +53,7 @@ export default function Stay() {
           author={blog.author}
           date={blog.date}
           readTime={blog.readTime}
-          category={blog.category}
+          
           stats={blog.stats}
         />
       ))}
