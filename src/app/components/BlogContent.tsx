@@ -19,7 +19,7 @@ interface BlogContentProps {
   }
   date: string
   readTime: string
-  
+  category?: string
   stats: {
     views: number
     likes: number
